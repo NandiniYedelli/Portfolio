@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <style>
+        /* General Page Styling */
+        body {
+            background-color: #d0e8ff; /* Light blue background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #003366; /* Dark blue background */
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        .container {
+            margin-top: 50px;
+        }
+
+        /* Call-to-Action Button Styling */
+        .button {
+            background-color: #28a745; /* Green background */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* Button Hover Effect */
+        .button:hover {
+            background-color: #1e7e34; /* Dark green on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Welcome to My Personal Blog
+    </header>
+
+    <div class="container">
+        <h2>Discover My Thoughts and Stories</h2>
+        <p>Join me on my journey as I share insights, experiences, and creativity.</p>
+        <button class="button">Read More</button>
